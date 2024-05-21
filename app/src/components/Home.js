@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Contact from './Contact'; // Import the Contact component
+import Service from './Service';
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
     <div className="mb-8 lg:mb-0 lg:mr-8 flex-shrink-0">
       <img
         className="h-96 w-auto"
-        src="../images/people-5579977_1280.png" // Replace with your image URL
+        src="https://firebasestorage.googleapis.com/v0/b/fusion-digital-marketing.appspot.com/o/2918517.webp?alt=media&token=953bfcb9-f8bb-4a0c-919c-c1b67d0a788c" // Replace with your image URL
         alt="Digital Marketing Image"
       />
     </div>
@@ -72,78 +73,8 @@ export default function Home() {
 </section>
 
 
-    {/* Services Section */}
-<section id="services" className="py-20 bg-gray-100">
-  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="text-center mb-12">
-      <h4 className="text-3xl font-bold text-gray-900">Our Services</h4>
-      <p className="mt-4 text-lg text-gray-600">
-        We offer a range of digital marketing services tailored to meet your business needs.
-      </p>
-    </div>
-    <div className="flex flex-wrap -mx-4">
-      {/* Social Media */}
-      <div className="w-full md:w-1/4 px-4 mb-8">
-        <div className="bg-purple-200 p-6 rounded-lg shadow-md text-center">
-          <img
-            className="mx-auto w-full h-48 object-cover rounded-md"
-            src="../.././images/4789176.jpg" // Placeholder image URL
-            alt="Social Media"
-          />
-          <h3 className="text-xl font-bold text-gray-900 mb-4 mt-4">Social Media</h3>
-          <p className="text-gray-700">
-            Engage with your audience on social media platforms and grow your brand's presence.
-          </p>
-        </div>
-      </div>
-
-      {/* Advertisement */}
-      <div className="w-full md:w-1/4 px-4 mb-8">
-        <div className="bg-purple-200 p-6 rounded-lg shadow-md text-center">
-          <img
-            className="mx-auto w-full h-48 object-cover rounded-md"
-            src="../.././images/19197114.jpg" // Placeholder image URL
-            alt="Advertisement"
-          />
-          <h3 className="text-xl font-bold text-gray-900 mb-4 mt-4">Advertisement</h3>
-          <p className="text-gray-700">
-            Reach your target audience effectively through targeted advertisements.
-          </p>
-        </div>
-      </div>
-
-      {/* Website Designing */}
-      <div className="w-full md:w-1/4 px-4 mb-8">
-        <div className="bg-purple-200 p-6 rounded-lg shadow-md text-center">
-          <img
-            className="mx-auto w-full h-48 object-cover rounded-md"
-            src="../.././images/6055621.jpg" // Placeholder image URL
-            alt="Website Designing"
-          />
-          <h3 className="text-xl font-bold text-gray-900 mb-4 mt-4">Website Designing & Development</h3>
-          <p className="text-gray-700">
-            Create a stunning website that reflects your brand and captivates your audience.
-          </p>
-        </div>
-      </div>
-
-      {/* Event Management */}
-      <div className="w-full md:w-1/4 px-4 mb-8">
-        <div className="bg-purple-200 p-6 rounded-lg shadow-md text-center">
-          <img
-            className="mx-auto w-full h-48 object-cover rounded-md"
-            src="../.././images/19197138.jpg" // Placeholder image URL
-            alt="Event Management"
-          />
-          <h3 className="text-xl font-bold text-gray-900 mb-4 mt-4">Event Management</h3>
-          <p className="text-gray-700">
-            Plan and execute successful events that leave a lasting impression on your audience.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{/* Services Section */}
+<Service/>
 
 {/*Contact section*/}
 <Contact/>
